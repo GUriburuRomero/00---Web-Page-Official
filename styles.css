@@ -1,0 +1,193 @@
+/* BARRA DE NAVEGACIÓN - CONFIGURACIÓN */
+
+body {
+    background-color: #4b6584;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.contenedor .contenedor-menu .principal-name strong a{
+    font-size: 40px;
+    text-decoration: none;
+    color: #ced6e0;
+    margin-right: 500px;
+    font-family: 'Amethysta', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor .contenedor-menu nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+img {
+    display: flex;
+}
+
+.contenedor .contenedor-menu a i{
+    padding: 20px;
+    margin-left: 60px;
+    font-size: 60px;
+    color: #ced6e0;
+}
+
+.contenedor-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #353b48;
+}
+
+#lista-nav ul {
+    display: flex;
+    gap: 100px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* PIE DE PÁGINA - CONFIGURACIÓN */
+
+.contenedor-footer {
+    display: flex;
+    background-color: #353b48;
+    padding: 10px;
+    align-items: center;
+}
+
+.footer-config {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+
+.contenedor-footer .footer-config div a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor-footer .footer-config h2 {
+    margin-right: 400px;
+    margin-left: 100px;
+    color: #67e6dc;
+    font-family: 'Exo', sans-serif;
+}
+
+.contenedor-footer .footer-config div a {
+    font-family: 'Exo', sans-serif;
+}
+
+/* SECCIÓN 1 PRINCIPAL - CONFIGURACIÓN */
+
+#contenedor-pres {
+    position: relative;
+    align-items: center;
+}
+
+.contenedor-pres {
+    position: relative;
+    text-align: center;
+}
+
+#seccion-principal .seccion_1 .Title-Welcome .contenedor-pres .texto-bien{
+    width: max-content;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+    font-family: 'Amethysta', serif;
+}
+
+#seccion-principal .seccion_1 .Title-Welcome .contenedor-pres .desc-op {
+    color: #EAB543;
+    background-color: #182C61;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    height: max-content;
+    font-size: 20px;
+    font-family: 'Exo', sans-serif;
+    padding: 40px;
+    border-radius: 10px;
+    opacity: 50%;
+}
+
+.desc {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    height: max-content;
+    font-size: 20px;
+    font-family: 'Exo', sans-serif;
+    padding: 40px;
+}
+
+/* SECCIÓN 2 PRINCIPAL - CONFIGURACIÓN */
+
+.contenedor-descripcion {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 150px 50px 150px;
+}
+
+.libro, .badge, .excelencia {
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+    padding: 20px;
+    gap: 50px;
+    color: #d1d8e0;
+}
+
+.contenedor-descripcion p {
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+
+/* SECCIÓN 3 PRINCIPAL - CONFIGURACIÓN */
+
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 200px;
+}
+
+.tarjeta_1, .tarjeta_2, .tarjeta_3 {
+    align-items: center;
+    background-color: violet;
+    width: 300px;
+    height: 350px;
+    border-radius: 10% 10% 0% 0%;
+    border-color: black;
+    border: 4px;
+    border-style:groove;
+    display: ce;
+}
